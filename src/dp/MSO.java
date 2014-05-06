@@ -9,7 +9,7 @@ public class MSO {
 		}
 		if(n==1) return 0; // base case
 		
-		if(arr[n]!=-1) return arr[n];  // already solved
+		if(arr[n]!=-1) return arr[n];  // already solved check in lookup table
 		
 		int r = 1 + getMinStep(n-1);
 		if(r%2 == 0)
