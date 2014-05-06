@@ -21,7 +21,7 @@ public class MSO {
 	}
 	
 	public static void main(String[]args){
-		System.out.print(getMinStep(2));
+		System.out.print(getMinStep(5));
 		
 	}
 
